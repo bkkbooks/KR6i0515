@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0515/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0515/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說乳光佛經
+  identifiers:
+    krp: KR6i0515
+    cbeta: T17n0809
+    cbeta_old_id: T17n0809
+    authorityid: CA0002675
+    json_key: T0809
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0809.xml
+    old_id: T17n0809
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0515_000-T.yaml, hash: 'sha256:1e7aceae0a1e7887874880462bf6d5f5d88ab034cec3fc7b59e0493d2e4e2d5c'}
+  - {seq: 1, filename: KR6i0515_001-T.yaml, hash: 'sha256:94e3b4d03be3269b88cfc47ab6b45522cbb04620bc1f2c2f41f33897e3069882'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0515_000-T.markers.yaml, hash: 'sha256:797a0a03b6143f8b0399f3bc9e2166ee6cd4b8956e11b201601a30159ac741d9'}
+  - {seq: 1, role: markers, filename: assets/KR6i0515_001-T.markers.yaml, hash: 'sha256:86bd39d2d4fa1011ccf78de5b7418731ca19ba520429c85865145a30c3bb7895'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0515_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2613
+  label: 佛說乳光佛經
+  type: juan
+  level: 1
+hash: sha256:24c7eb4a38ddfbd17aed8fc9d64a2ea462956a41f9b36491962d4f05a684aff2
