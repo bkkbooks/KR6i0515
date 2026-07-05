@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0515_000.yaml, hash: 'sha256:1e7aceae0a1e7887874880462bf6d5f5d88ab034cec3fc7b59e0493d2e4e2d5c'}
-  - {seq: 1, filename: KR6i0515_001.yaml, hash: 'sha256:d7f76102f71cd53a7cebba7bd8df34e813ca24bbe8841657c977f2959082dc2f'}
+  - {seq: 1, filename: KR6i0515_001.yaml, hash: 'sha256:94e3b4d03be3269b88cfc47ab6b45522cbb04620bc1f2c2f41f33897e3069882'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0515_001.markers.yaml, hash: 'sha256:b5798cf14c5fd7bb2523f91dac1375a46510d5d2786da0cc5e45311e71c98058'}
+  - {seq: 0, role: markers, filename: assets/KR6i0515_000.markers.yaml, hash: 'sha256:234c7b74e0d0b5eb99cef8a8ef6dd576ede564eb4f9018fbd762887c1bb110ba'}
+  - {seq: 1, role: markers, filename: assets/KR6i0515_001.markers.yaml, hash: 'sha256:c67a5bf8b722743c4f8a7d4562b1af63974d52e5c7077025d857973b96c2a947'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說乳光佛經
   type: juan
   level: 1
-hash: sha256:2cb9440b907825cf3708a9c732a20b7586f895fba6ca0c8647e0f96ebcf2a713
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:2f668ed950d325aefdd40043831fcf9c7b1de472b8cc2b0e962e9436def296aa
