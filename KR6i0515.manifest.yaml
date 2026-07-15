@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0515/v1
 canonical_location: https://kanripo.org/bkk/KR6i0515/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說乳光佛經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0515_000.yaml, hash: 'sha256:1e7aceae0a1e7887874880462bf6d5f5d88ab034cec3fc7b59e0493d2e4e2d5c'}
-  - {seq: 1, filename: KR6i0515_001.yaml, hash: 'sha256:94e3b4d03be3269b88cfc47ab6b45522cbb04620bc1f2c2f41f33897e3069882'}
+  - {seq: 1, filename: KR6i0515_001.yaml, hash: 'sha256:d5e7f05a80b62ef225315b918df62fb9bc939e6dedbe0cc771bae4fb157c37ea'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0515_000.markers.yaml, hash: 'sha256:234c7b74e0d0b5eb99cef8a8ef6dd576ede564eb4f9018fbd762887c1bb110ba'}
-  - {seq: 1, role: markers, filename: assets/KR6i0515_001.markers.yaml, hash: 'sha256:c67a5bf8b722743c4f8a7d4562b1af63974d52e5c7077025d857973b96c2a947'}
+  - {seq: 1, role: markers, filename: assets/KR6i0515_001.markers.yaml, hash: 'sha256:96f7ae56ebdf4033fa447d085feef403e5c1825d361988477dda528eedac2d4c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說乳光佛經
   type: juan
   level: 1
-hash: sha256:2f668ed950d325aefdd40043831fcf9c7b1de472b8cc2b0e962e9436def296aa
+hash: sha256:d27833a6b4189a6d674795b16f5a0be0dcf313452a70c1658d333b82b5fb1e06
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
